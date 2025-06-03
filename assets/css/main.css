@@ -237,13 +237,16 @@ body {
 }
 
 .personal-photo {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
+    width: 220px !important;
+    height: 220px !important;
+    max-width: 220px !important;
+    max-height: 220px !important;
+    object-fit: cover !important;
     border-radius: 1rem;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
     border: 3px solid var(--border);
+    display: block;
 }
 
 .personal-photo:hover {
@@ -316,8 +319,10 @@ body {
     }
     
     .personal-photo {
-        width: 180px;
-        height: 180px;
+        width: 180px !important;
+        height: 180px !important;
+        max-width: 180px !important;
+        max-height: 180px !important;
     }
     
     .fun-tags {
@@ -360,8 +365,10 @@ body {
     }
     
     .personal-photo {
-        width: 160px;
-        height: 160px;
+        width: 160px !important;
+        height: 160px !important;
+        max-width: 160px !important;
+        max-height: 160px !important;
     }
     
     .links a {
