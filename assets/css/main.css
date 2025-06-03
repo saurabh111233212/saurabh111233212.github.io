@@ -208,6 +208,50 @@ body {
 }
 
 /* Fun stuff section */
+.personal-highlight {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+.personal-highlight p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.personal-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    margin-top: 1rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personal-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    border: 3px solid var(--border);
+}
+
+.personal-photo:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-color);
+}
+
 .fun-tags {
     display: flex;
     flex-wrap: wrap;
@@ -237,7 +281,7 @@ body {
     background: var(--surface);
     border-top: 1px solid var(--border);
     padding: 2rem 0;
-    margin-top: 4rem;
+    margin-top: 1rem;
     text-align: center;
     color: var(--text-light);
     font-size: 0.9rem;
@@ -259,6 +303,21 @@ body {
     
     .section-title {
         font-size: 1.75rem;
+    }
+    
+    .personal-highlight {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .personal-photos {
+        max-width: 400px;
+        gap: 0.75rem;
+    }
+    
+    .personal-photo {
+        width: 180px;
+        height: 180px;
     }
     
     .fun-tags {
@@ -290,8 +349,28 @@ body {
         padding: 1rem 0.75rem;
     }
     
+    .personal-highlight {
+        padding: 1rem;
+    }
+    
+    .personal-photos {
+        grid-template-columns: 1fr;
+        max-width: 200px;
+        gap: 0.5rem;
+    }
+    
+    .personal-photo {
+        width: 160px;
+        height: 160px;
+    }
+    
     .links a {
         font-size: 0.9rem;
         padding: 0.6rem 1rem;
     }
+}
+
+/* Reduce bottom margin for the last section */
+.section:last-of-type {
+    margin-bottom: 0.5rem;
 } 
