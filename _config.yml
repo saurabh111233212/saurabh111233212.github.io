@@ -1,0 +1,22 @@
+# Site settings
+title: "Saurabh Shah"
+description: "Research Engineer at Ai2"
+url: "https://saurabh111233212.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# GitHub Pages specific settings
+github_username: saurabh111233212
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/ 
