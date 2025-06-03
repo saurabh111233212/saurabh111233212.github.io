@@ -6,7 +6,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
 
 <div class="profile">
     <img src="/assets/headshot.png" alt="Saurabh Shah - AI Research Engineer" class="profile-image">
-    <h1 class="profile-title">Hi, I'm <strong>Saurabh Shah</strong> </h1> <h1>🤠</h1>
+    <h1 class="profile-title">Hi, I'm <strong>Saurabh</strong> </h1> <h1>🤠</h1>
     <p class="profile-subtitle">
         I'm a research engineer at <a href="https://allenai.org/" target="_blank">Ai2</a> working on post-training <strong><a href="https://allenai.org/olmo" target="_blank">OLMo</a></strong> and <strong><a href="https://allenai.org/tulu" target="_blank">Tülu</a></strong> language models. I'm focused on RL for code, tool-use, and reasoning. <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>.
     </p>
@@ -115,7 +115,6 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
             </div>
             <p>Course recommendation web app using collaborative filtering and text embeddings to suggest courses based on difficulty ratings and natural language interests, respectively. Built recommendation system for my team of 4.</p>
         </li>
-
         <li>
             <div class="project-title">
                 PokéGANs
@@ -127,7 +126,6 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
             </div>
             <p>Generated complete Pokémon from names. Fine-tuned GPT-3 for types, stats, abilities; CLIP+VQGAN for images from generated text. Trained custom LSTM and GANs from scratch and compared results to the pretrained models (which were way better 😅)</p>
         </li>
-
         <li>
             <div class="project-title">
                 Comedy Bot
@@ -153,6 +151,15 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
             <span class="fun-tag">🎤 Standup comedy</span>
             <span class="fun-tag">🚴‍♂️ Unicycling (yes, really)</span>
             <span class="fun-tag">🏔️ Hiking</span>
+        </div>
+        <div class="personal-highlight">
+            <p>I spend most of my free time with my partner Kat and our two little cats, Boby and Gobi</p>
+            <div class="personal-photos">
+                <img src="/assets/boby_and_kat.jpeg" alt="Kat with Boby" class="personal-photo">
+                <img src="/assets/Boby.jpeg" alt="Boby the cat" class="personal-photo">
+                <img src="/assets/pretty_gobi.jpg" alt="Pretty Gobi" class="personal-photo">
+                <img src="/assets/void_gobi.jpg" alt="Void Gobi" class="personal-photo">
+            </div>
         </div>
     </div>
 </section>
