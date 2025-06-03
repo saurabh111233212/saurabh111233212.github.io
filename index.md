@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Saurabh Shah"
-description: "Research Engineer at Ai2 working on post-training OLMo and Tülu language models"
+title: "Saurabh Shah - AI Research Engineer at Allen Institute for AI"
+description: "Saurabh Shah is a Research Engineer at Ai2 working on post-training OLMo and Tülu language models. Expert in machine learning, NLP, and AI research with publications at ACL."
 ---
 
 <div class="profile">
-    <img src="/assets/headshot.png" alt="Headshot of Saurabh Shah" class="profile-image">
-    <h1 class="profile-title">Hi, I'm <strong>Saurabh</strong> </h1> <h1>🤠</h1>
+    <img src="/assets/headshot.png" alt="Saurabh Shah - AI Research Engineer" class="profile-image">
+    <h1 class="profile-title">Hi, I'm <strong>Saurabh Shah</strong> </h1> <h1>🤠</h1>
     <p class="profile-subtitle">
         I'm a research engineer at <a href="https://allenai.org/" target="_blank">Ai2</a> working on post-training <strong><a href="https://allenai.org/olmo" target="_blank">OLMo</a></strong> and <strong><a href="https://allenai.org/tulu" target="_blank">Tülu</a></strong> language models. I'm focused on RL for code, tool-use, and reasoning. <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>.
     </p>
