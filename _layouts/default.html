@@ -3,8 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="author" content="Saurabh Shah">
+    <meta name="keywords" content="Saurabh Shah, AI research, machine learning, NLP, OLMo, Tülu, Allen Institute, Ai2, language models, artificial intelligence">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:image" content="{{ '/assets/headshot.png' | absolute_url }}">
+    <meta property="og:site_name" content="Saurabh Shah">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta property="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta property="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta property="twitter:image" content="{{ '/assets/headshot.png' | absolute_url }}">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Saurabh Shah",
+      "jobTitle": "Research Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Allen Institute for Artificial Intelligence"
+      },
+      "url": "{{ site.url }}",
+      "image": "{{ '/assets/headshot.png' | absolute_url }}",
+      "sameAs": [
+        "https://github.com/saurabh111233212",
+        "https://scholar.google.com/citations?hl=en&user=iB_qEXkAAAAJ",
+        "https://www.linkedin.com/in/saurabh-shah-90063a18a/",
+        "https://learnycurve.substack.com/"
+      ],
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "University of Pennsylvania"
+      },
+      "knowsAbout": [
+        "Machine Learning",
+        "Natural Language Processing", 
+        "Artificial Intelligence",
+        "Language Models",
+        "Deep Learning"
+      ]
+    }
+    </script>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +72,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+    
+    <!-- Jekyll SEO Tag -->
+    {% seo %}
 </head>
 <body>
     <main class="container">
@@ -27,7 +83,7 @@
     
     <footer class="footer">
         <div class="container">
-            <p>what's up footer enjoyers</p>
+            <p>© 2025 Saurabh Shah. Research Engineer at Allen Institute for AI.</p>
         </div>
     </footer>
 </body>

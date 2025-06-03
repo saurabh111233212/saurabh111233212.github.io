@@ -1,8 +1,21 @@
 # Site settings
-title: "Saurabh Shah"
-description: "Research Engineer at Ai2"
-url: "https://saurabh111233212.github.io"
+title: "Saurabh Shah - AI Research Engineer"
+description: "Saurabh Shah is a Research Engineer at Allen Institute for AI (Ai2) working on post-training OLMo and Tülu language models. Expert in machine learning, natural language processing, and AI research."
+url: "https://saurabhs.site"
 baseurl: ""
+
+# Personal info for SEO
+author:
+  name: "Saurabh Shah"
+  email: "saurabhs@allenai.org"
+  twitter: ""
+  linkedin: "saurabh-shah-90063a18a"
+  github: "saurabh111233212"
+  google_scholar: "iB_qEXkAAAAJ"
+
+# SEO settings
+lang: en_US
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
@@ -10,13 +23,20 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # GitHub Pages specific settings
 github_username: saurabh111233212
+
+# SEO optimization
+google_analytics: # Add your GA tracking ID here when you get one
+google_site_verification: # Add Google Search Console verification
 
 # Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - vendor/ 
+  - vendor/
+  - .bundle/
+  - .jekyll-metadata 
