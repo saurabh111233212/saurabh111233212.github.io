@@ -250,6 +250,14 @@
                     });
                 });
             }
+
+            document.addEventListener('keydown', function(event) {
+                if (event.key.toLowerCase() === 'd') {
+                    if (event.target.tagName !== 'INPUT' && event.target.tagName !== 'TEXTAREA' && !event.target.isContentEditable) {
+                        window.location.href = 'https://davidheineman.com';
+                    }
+                }
+            });
         });
     </script>
 </body>
