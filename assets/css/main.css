@@ -5,21 +5,41 @@
     box-sizing: border-box;
 }
 
+/* Skip link for keyboard users */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 10000;
+    border-radius: 0 0 0.5rem 0;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #64748b;
-    --text-color: #1e293b;
-    --text-light: #64748b;
-    --background: #ffffff;
-    --background-rgb: 255, 255, 255;
-    --surface: #f8fafc;
-    --border: #e2e8f0;
-    --link-color: #2563eb;
-    --link-hover: #1d4ed8;
+    --primary-color: #7c3aed;
+    --secondary-color: #78716c;
+    --text-color: #292524;
+    --text-light: #78716c;
+    --background: #fff4e6;
+    --background-rgb: 255, 244, 230;
+    --surface: #ffedd5;
+    --border: #fed7aa;
+    --link-color: #7c3aed;
+    --link-hover: #6d28d9;
     --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     --navbar-height: 70px;
@@ -27,29 +47,29 @@ html {
 
 /* Dark mode */
 [data-theme="dark"] {
-    --primary-color: #3b82f6;
-    --secondary-color: #94a3b8;
-    --text-color: #f1f5f9;
-    --text-light: #94a3b8;
-    --background: #0f172a;
-    --background-rgb: 15, 23, 42;
-    --surface: #1e293b;
-    --border: #334155;
-    --link-color: #60a5fa;
-    --link-hover: #93c5fd;
+    --primary-color: #a78bfa;
+    --secondary-color: #a8a29e;
+    --text-color: #fafaf9;
+    --text-light: #a8a29e;
+    --background: #1c1510;
+    --background-rgb: 28, 21, 16;
+    --surface: #2c2218;
+    --border: #44403c;
+    --link-color: #a78bfa;
+    --link-hover: #c4b5fd;
     --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px -1px rgb(0 0 0 / 0.3);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
 }
 
 [data-theme="dark"] body {
-    background: #16213e;
+    background: #1c1510;
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background: #fef9f3;
+    background: #fff4e6;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -90,7 +110,7 @@ body {
 }
 
 .nav-brand:hover {
-    color: #1d4ed8;
+    color: #6d28d9;
 }
 
 .nav-menu {
@@ -111,6 +131,12 @@ body {
 
 .nav-link:hover {
     color: var(--primary-color);
+}
+
+.nav-link:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 4px;
+    border-radius: 0.25rem;
 }
 
 .nav-link::after {
@@ -138,7 +164,7 @@ body {
 }
 
 .nav-resume:hover {
-    background: #1d4ed8;
+    background: #6d28d9;
     transform: translateY(-1px);
 }
 
@@ -161,7 +187,7 @@ body {
     margin-left: 0.5rem;
     font-size: 0.85rem;
     font-weight: 500;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     white-space: nowrap;
 }
 
@@ -196,6 +222,16 @@ body {
 .theme-toggle:hover {
     background: var(--surface);
     border-color: var(--primary-color);
+}
+
+.theme-toggle:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.fun-toggle:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
 }
 
 .theme-toggle .sun-icon,
@@ -285,10 +321,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #2563eb, #7c3aed);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary-color);
 }
 
 .profile-subtitle {
@@ -340,9 +373,14 @@ body {
 }
 
 .links a:hover {
-    background: #1d4ed8;
+    background: #6d28d9;
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
+}
+
+.links a:focus {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 3px;
 }
 
 .links a svg {
@@ -489,7 +527,7 @@ body {
 }
 
 .fun-tag {
-    background: linear-gradient(135deg, var(--primary-color), #7c3aed);
+    background: var(--primary-color);
     color: white;
     padding: 0.75rem 1.25rem;
     border-radius: 2rem;
@@ -780,7 +818,7 @@ body {
 }
 
 .download-btn:hover {
-    background: #1d4ed8;
+    background: #6d28d9;
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
