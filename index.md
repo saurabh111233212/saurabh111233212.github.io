@@ -8,7 +8,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
     <img src="/assets/headshot.png" alt="Saurabh Shah - AI Research Engineer" class="profile-image">
     <h1 class="profile-title"> <strong>Saurabh Shah</strong> </h1> <h1>🤠</h1>
     <p class="profile-subtitle">
-        Hello! I'm a research engineer at <a href="https://allenai.org/" target="_blank">Ai2</a> working on post-training <strong><a href="https://allenai.org/olmo" target="_blank">OLMo</a></strong> and <strong><a href="https://allenai.org/tulu" target="_blank">Tülu</a></strong> language models. I'm focused on RL for code, tool-use, and reasoning. <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>.
+        Hello! I'm a research engineer at <a href="https://allenai.org/" target="_blank">Ai2</a> working on post-training <strong><a href="https://allenai.org/olmo" target="_blank">Olmo</a></strong> and <strong><a href="https://allenai.org/tulu" target="_blank">Tülu</a></strong> language models. I'm focused on RL for code, tool-use, and reasoning. <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>.
     </p>
 </div>
 
@@ -64,7 +64,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
     <h2 class="section-title">Research Papers</h2>
     <ul class="projects-list">
         <li>
-            <div class="project-title"><a href="https://arxiv.org/abs/2402.00838" target="_blank">OLMo: Accelerating the Science of Language Models</a></div>
+            <div class="project-title"><a href="https://arxiv.org/abs/2402.00838" target="_blank">Olmo: Accelerating the Science of Language Models</a></div>
             <p>Explored ReLoRA, a parameter-efficient <em>pretraining</em> method. <strong>ACL 2024 Main Conference - Theme Paper Award</strong></p>
         </li>
         <li>
