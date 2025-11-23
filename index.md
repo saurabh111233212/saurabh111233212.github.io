@@ -8,7 +8,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
     <img src="/assets/headshot.png" alt="Saurabh Shah - AI Research Engineer" class="profile-image">
     <h1 class="profile-title"> <strong>Saurabh Shah</strong> </h1> <h1>🤠</h1>
     <p class="profile-subtitle">
-        Hello! I'm a research engineer at <a href="https://allenai.org/" target="_blank">Ai2</a> working on post-training <strong><a href="https://allenai.org/olmo" target="_blank">Olmo</a></strong> and <strong><a href="https://allenai.org/tulu" target="_blank">Tülu</a></strong> language models. I'm focused on RL for code, tool-use, and reasoning. <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>.
+        Hello! I'm a research engineer at <a href="https://allenai.org/" target="_blank">Ai2</a> working on post-training <strong><a href="https://allenai.org/olmo" target="_blank">Olmo</a></strong> and <strong><a href="https://allenai.org/tulu" target="_blank">Tülu</a></strong> language models. I'm focused on RL for code, tool-use, and reasoning <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>
     </p>
 </div>
 
@@ -86,7 +86,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
                     </svg>
                 </a>
             </div>
-            <p><a href="https://github.com/saurabh111233212/programming_massively_parallel_processors" target="_blank">I learned some cuda</a> and wanted to test my knowledge. Implemented the <a href="https://arxiv.org/abs/2402.19427" target="_blank">Griffin language model</a> from scratch in PyTorch with custom CUDA extensions for the scan operation. Deep dive into GPU programming and transformer architectures.</p>
+            <p><a href="https://github.com/saurabh111233212/programming_massively_parallel_processors" target="_blank">I learned some cuda</a> and wanted to test my knowledge. Implemented the <a href="https://arxiv.org/abs/2402.19427" target="_blank">Griffin language model</a> from scratch in PyTorch with custom CUDA extensions for the scan operation. Deep dive into GPU programming and transformer architectures</p>
         </li>
         <li>
             <div class="project-title">
@@ -97,7 +97,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
                     </svg>
                 </a>
             </div>
-            <p>Ai2 Hackathon project. Chrome extension using GPT-4 to extract objective facts from news articles, with interface to compare fact reporting across different news sources.</p>
+            <p>Ai2 Hackathon project. Chrome extension using GPT-4 to extract objective facts from news articles, with interface to compare fact reporting across different news sources</p>
         </li>
         <li>
             <div class="project-title">
@@ -108,7 +108,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
                     </svg>
                 </a>
             </div>
-            <p>What if you could steer embedding search with interpretable concepts? Novel (at the time) method for interpretable embeddings using LLMs and Decision Trees. Supports classification, regression, clustering, and post-hoc explanation of black box models.</p>
+            <p>What if you could steer embedding search with interpretable concepts? Novel (at the time) method for interpretable embeddings using LLMs and Decision Trees. Supports classification, regression, clustering, and post-hoc explanation of black box models</p>
         </li>
         <li>
             <div class="project-title">
@@ -119,7 +119,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
                     </svg>
                 </a>
             </div>
-            <p>Course recommendation web app using collaborative filtering and text embeddings to suggest courses based on difficulty ratings and natural language interests, respectively. Built recommendation system for my team of 4.</p>
+            <p>Course recommendation web app using collaborative filtering and text embeddings to suggest courses based on difficulty ratings and natural language interests, respectively. Built recommendation system for my team of 4</p>
         </li>
         <li>
             <div class="project-title">
@@ -141,7 +141,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
                     </svg>
                 </a>
             </div>
-            <p> My first exposure to ML and NLP. I wanted a robot that could rate the jokes I'd write before performing them to like 200 people. Played with bag of words/naive Bayes and LSTMs.</p>
+            <p> My first exposure to ML and NLP. I wanted a robot that could rate the jokes I'd write before performing them to like 200 people. Played with bag of words/naive Bayes and LSTMs</p>
         </li>
     </ul>
 </section>
