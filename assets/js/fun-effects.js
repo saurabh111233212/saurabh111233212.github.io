@@ -40,13 +40,16 @@
         const topPosition = Math.random() * (window.innerHeight - 100);
         animal.style.top = topPosition + 'px';
 
+        // Start offscreen to the left
+        animal.style.left = '-150px';
+
         // ULTRA FAST animation duration - MAXIMUM CHAOS MODE!
         const duration = 3 + Math.random() * 5; // 3-8 seconds (was 4-10)
         animal.style.animationDuration = duration + 's';
 
-        // Random delay
-        const delay = Math.random() * 2;
-        animal.style.animationDelay = delay + 's';
+        // No delay - animals should start moving immediately
+        // const delay = Math.random() * 2;
+        // animal.style.animationDelay = delay + 's';
 
         document.body.appendChild(animal);
 
@@ -55,7 +58,7 @@
             if (animal.parentNode) {
                 animal.parentNode.removeChild(animal);
             }
-        }, (duration + delay) * 1000);
+        }, duration * 1000);
 
         // Track this timeout so we can clear it if needed
         pendingTimeouts.push(removeTimeout);
