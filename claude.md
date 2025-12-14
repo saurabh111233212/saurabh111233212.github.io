@@ -3,7 +3,7 @@
 When working on this website:
 
 1. **Always rebuild after changes**: Run `make dev` after making any changes to see them reflected
-2. **Font**: We're using Rubik - friendly and chunky
+2. **Font**: We're using Comic Relief - playful and friendly
 3. **Colors**:
    - Primary: Violet purple (#7c3aed)
    - Warm peachy backgrounds in light mode (#fff4e6)
