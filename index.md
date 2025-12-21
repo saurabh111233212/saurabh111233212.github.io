@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Saurabh Shah - AI Research Engineer at Allen Institute for AI"
-description: "Saurabh Shah is a Research Engineer at Ai2 working on post-training OLMo and Tülu language models. Expert in machine learning, NLP, and AI research with publications at ACL."
+title: "Saurabh Shah - Member of Technical Staff at humans&"
+description: "Saurabh Shah is a Member of Technical Staff at humans&. Training AI systems to work with people, not replace them."
 ---
 
 <div class="profile" id="home">
-    <img src="/assets/headshot.png" alt="Saurabh Shah - AI Research Engineer" class="profile-image">
+    <img src="/assets/headshot.png" alt="Saurabh Shah - Member of Technical Staff at humans&" class="profile-image">
     <h1 class="profile-title"> <strong>Saurabh Shah</strong> </h1> <h1>🤠</h1>
     <p class="profile-subtitle">
-        Hello! I'm a research engineer at <a href="https://allenai.org/" target="_blank">Ai2</a> working on post-training <strong><a href="https://allenai.org/olmo" target="_blank">Olmo</a></strong> and <strong><a href="https://allenai.org/tulu" target="_blank">Tülu</a></strong> language models. I'm focused on RL for code, tool-use, and reasoning <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>
+        Hello! I work at <a href="https://humansand.com/" target="_blank" rel="noopener noreferrer">humans&</a>. We're training AI systems to work with people, not replace them <br> <br> I write about ML research and engineering at <a href="https://learnycurve.substack.com/" target="_blank">The Learning Curve</a>
     </p>
 </div>
 
@@ -43,7 +43,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
         </svg>
         <span>LinkedIn</span>
     </a>
-    <a href="mailto:saurabhs@allenai.org" aria-label="Send me an email">
+    <a href="mailto:saurabh@humansand.ai" aria-label="Send me an email">
         <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true" focusable="false">
             <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
         </svg>
@@ -54,6 +54,7 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
 <section class="section" id="about">
     <h2 class="section-title">Before this I was...</h2>
     <ul class="about-list">
+        <li>👹 post-training the <a href="https://allenai.org/olmo" target="_blank" rel="noopener noreferrer">Olmo</a> language model at <a href="https://allenai.org/" target="_blank" rel="noopener noreferrer">Ai2</a></li>
         <li>🍎 building an agentic Siri planner powered by Apple Intelligence</li>
         <li>🎓 finishing my BS/MS at Penn</li>
         <li>🐣 being a kid and having fun (I still try to do this)</li>
@@ -64,7 +65,11 @@ description: "Saurabh Shah is a Research Engineer at Ai2 working on post-trainin
     <h2 class="section-title">Research Papers</h2>
     <ul class="projects-list">
         <li>
-            <div class="project-title"><a href="https://arxiv.org/abs/2402.00838" target="_blank">Olmo: Accelerating the Science of Language Models</a></div>
+            <div class="project-title"><a href="https://arxiv.org/abs/2512.13961" target="_blank" rel="noopener noreferrer">Olmo 3</a></div>
+            <p>Trained Olmo 3 to write code, use tools, and reason. Built RL + code execution infrastructure and curated code data</p>
+        </li>
+        <li>
+            <div class="project-title"><a href="https://arxiv.org/abs/2402.00838" target="_blank" rel="noopener noreferrer">OLMo: Accelerating the Science of Language Models</a></div>
             <p>Explored ReLoRA, a parameter-efficient <em>pretraining</em> method. <strong>ACL 2024 Main Conference - Theme Paper Award</strong></p>
         </li>
         <li>
