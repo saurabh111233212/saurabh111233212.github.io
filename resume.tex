@@ -1,0 +1,266 @@
+%-------------------------
+% Resume in Latex
+% Author : Gabriel Sison
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Random Stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor} % Required for custom colors
+\usepackage{hyperref}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define violet purple color to match website
+\definecolor{violetpurple}{RGB}{124, 58, 237}
+% Warm cream background tint
+\definecolor{warmcream}{RGB}{255, 250, 245}
+\pagecolor{warmcream}
+
+% Define hyperlink color
+\hypersetup{
+    colorlinks=true, % Enable colored links
+    linkcolor=violetpurple,  % Color of internal links (sections, pages etc.)
+    urlcolor=violetpurple,   % Color of external links
+}
+
+\newcommand{\betterHref}[2]{\href{#1}{\color{violetpurple}{#2}}}
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\extraDegree}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-3pt}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        % NAME
+        {\huge\scshape Saurabh Shah} 
+        % SUBHEADING
+        % \\ Machine Learning Research Engineer\\
+
+        \small
+        % WEBSITE
+        \href{https://saurabhs.site/}{\raisebox{-0.2\height}\faGlobe\  \underline{saurabhs.site}} ~
+        % EMAIL
+        \href{mailto:saurabh@humansand.ai}{\raisebox{-0.2\height}\faEnvelope\  \underline{saurabh@humansand.ai}} ~ 
+        % LINKEDIN
+        \href{https://www.linkedin.com/in/saurabh-shah-90063a18a}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+        % GITHUB
+        \href{https://github.com/saurabh111233212}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+        % GOOGLE SCHOLAR
+        \href{https://scholar.google.com/citations?hl=en&user=iB_qEXkAAAAJ}{\raisebox{-0.2\height}\faGoogle\ \underline{Google Scholar}}
+    \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+    % MAIN INFORMATION
+    \resumeSubheading
+    {University of Pennsylvania}{Philadelphia, PA}
+    {Master of Science in Engineering in Computer Science 3.91 GPA}{Jan 2021 - May 2023}
+        % BULLET POINTS
+        \resumeItemListStart
+            \resumeItem{Focused on Algorithmic Theory, Artificial Intelligence, Machine Learning, and Natural Language Processing (NLP)}
+        \resumeItemListEnd
+    \extraDegree
+    {Bachelor of Science in Engineering in Networked and Social Systems Engineering 3.90 GPA}{Aug 2019 - May 2023}
+        % BULLET POINTS
+        \resumeItemListStart
+            \resumeItem{Major combines Computer Science, Systems Engineering, and Economics. Minors in Data Science and Mathematics}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {humans\&}{San Francisco, CA}
+            % POSITION 1
+            {Member of Technical Staff}{Jan 2026 - Present}
+            \resumeItemListStart
+                \resumeItem{Training systems that work with people, not replace them}
+            \resumeItemListEnd
+
+    \resumeSubheading
+        {Allen Institute for AI (Ai2)}{Seattle, WA}
+            % POSITION 1
+            {Research Engineer \betterHref{https://arxiv.org/abs/2512.13961}{(paper)}}{Feb 2025 - Jan 2026}
+            \resumeItemListStart
+                \resumeItem{\betterHref{https://allenai.org/olmo}{Olmo} team. Trained Olmo 3 to write code, use tools, and reason. Built RL + code execution infra. Code data curation.}
+            \resumeItemListEnd
+    
+        % COMPANY 1
+        \resumeSubheading
+        {Apple}{Seattle, WA}
+            % POSITION 1
+            {Machine Learning Engineer}{Oct 2023 - Feb 2025}
+            \resumeItemListStart
+                \resumeItem{Siri Natural Language Understanding (NLU). Helped build an agentic Siri planner powered by Apple Intelligence}
+                % \resumeItem{ML: Trained and evaluated LoRA adapters of the planner for cross-domain personal search queries \betterHref{https://www.youtube.com/watch?v=TPe8revsg3k}{(link)}}
+                % \resumeItem{SWE: (1) Lead the development of a streamlined evaluation platform. (2) Supported annotation data pipelines} 
+            \resumeItemListEnd
+
+        % COMPANY 2
+        \resumeSubheading
+        {Allen Institute for AI (Ai2)}{Seattle, WA}
+            % POSITION 1
+            {Research Engineering Intern \betterHref{https://arxiv.org/abs/2402.00838}{(paper)}}{Aug 2023 - Oct 2023}
+            \resumeItemListStart
+                \resumeItem{Tried pretraining \betterHref{https://allenai.org/olmo}{Olmo} with \betterHref{https://arxiv.org/abs/2307.05695}{ReLoRA}, a parameter-efficient \textit{pretraining} method. Learned lots about PyTorch/FSDP}
+            \resumeItemListEnd
+        % COMPANY 3
+        \resumeSubheading
+        {University of Pennsylvania}{Philadelphia, PA}
+            % POSITION 1
+            {Researcher \betterHref{https://arxiv.org/abs/2305.04990}{(paper)} \betterHref{https://www.youtube.com/watch?v=I0P5XbYqGq0\&ab_channel=SaurabhShah}{(talk)}}{Aug 2022 - May 2023}
+            \resumeItemListStart
+                \resumeItem{Explored using free-text explanations for improving the robustness of LLMs to spurious cues in training data}
+            \resumeItemListEnd
+            
+        \resumeSubheading
+        {Apple} {Seattle, WA}
+            {Machine Learning Engineering Intern} {May 2022 - Aug 2022}
+            \resumeItemListStart
+                \resumeItem{Siri NLU. Built an internal Swift iOS app for testing text-to-intent parsing and counterfactual evaluation}
+            \resumeItemListEnd
+
+        \resumeSubheading
+        {Amazon} {Nashville, TN}
+        {Software Development Engineering (SDE) Intern} {May 2021 - Aug 2021}
+        \resumeItemListStart
+            \resumeItem{Robotics-AI Computer Vision. Built a web app with React and AWS to configure, search, and view over 300,000 cameras}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects} 
+    \resumeSubHeadingListStart
+        \resumeProjectHeading {The Learning Curve
+        \betterHref{https://learnycurve.substack.com}{(link)}
+        }
+        {March 2025 - Present}
+        \resumeItemListStart
+        \resumeItem{A blog where I talk about machine learning research and engineering}
+        \resumeItemListEnd
+        
+        \resumeProjectHeading
+        {Griffin LM + CUDA \betterHref{https://github.com/saurabh111233212/griffin_reimpl}{(link)}} 
+        % Date
+        {May 2024 - August 2024}
+        \resumeItemListStart
+        \resumeItem{I learned some cuda \betterHref{https://github.com/saurabh111233212/programming_massively_parallel_processors}{(link)} and tried to implement \betterHref{https://arxiv.org/abs/2402.19427}{Griffin} from scratch in PyTorch with a cuda extension for the scan}
+        \resumeItemListEnd
+
+        % Project 2
+        \resumeProjectHeading
+        {Concept Space Embeddings \betterHref{https://github.com/saurabh111233212/ConceptTrees}{(link)}}
+        % Date
+        {Feb 2023 - Apr 2023}
+        \resumeItemListStart
+            \resumeItem{Worked with a team of 2 to create a novel method for interpretable embeddings of arbitrary text using LLMs and Decision Trees. Works for classification, regression, clustering, and post hoc explanation of black box models}
+        \resumeItemListEnd
+
+        \resumeProjectHeading{Compass (Penn Course Recommendation) \betterHref{https://github.com/saraxstrenger/seniordesign}{(link)}}
+        {Jan 2023 - Apr 2023}
+        \resumeItemListStart
+            \resumeItem{Group of 4. Course recommendation web app. I built the recommendation system with (1) collaborative filtering and (2) text embeddings to recommend courses to students based on (1) perceived difficulty and (2) natural language interests}
+        \resumeItemListEnd
+
+        \resumeProjectHeading{Poké-GANs (Pokémon Generator) \betterHref{https://github.com/saurabh111233212/PokeGANs}{(link)}}
+        {Mar 2022 - Apr 2022}
+        \resumeItemListStart
+            \resumeItem{Generated complete Pokémon from names. Fine-tuned GPT-3 for types, stats, abilities; CLIP+VQGAN for images from generated text. Trained custom LSTM and GANs from scratch and compared results. Worked with partner.}
+        \resumeItemListEnd
+
+        \resumeProjectHeading{Comedy Bot \betterHref{https://github.com/saurabh111233212/comedybot}{(link)}}
+        {July 2020}
+        \resumeItemListStart
+            \resumeItem{Experimented with ML models to recognize and rate jokes I write and perform for crowds of 150+. Joke datasets from Kaggle. Experimented with Bag of Words/Naïve Bayes and LSTM models. Built with PyTorch}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+    \vspace{-7pt}
+    \begin{itemize}
+    [leftmargin=0.15in, label={}]\small{\item{
+        % LANGUAGES
+        \textbf{Languages}{: Python, TypeScript/JavaScript, Go, CUDA/C++, Java, Haskell, Coq, Swift} \\
+        % TECHNOLOGIES
+        \textbf{Technologies/Frameworks}{: PyTorch/FSDP, LLMs, HuggingFace, AWS, React, Pandas} \\}}
+    \end{itemize}
+ 
+\end{document}

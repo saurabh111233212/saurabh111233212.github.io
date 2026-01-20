@@ -1,13 +1,13 @@
 # Site settings
-title: "Saurabh Shah - AI Research Engineer"
-description: "Saurabh Shah is a Research Engineer at Allen Institute for AI (Ai2) working on post-training Olmo and Tülu language models. Expert in machine learning, natural language processing, and AI research."
+title: "Saurabh Shah - Member of Technical Staff at humans&"
+description: "Saurabh Shah is a Member of Technical Staff at humans&. Training AI systems to work with people, not replace them."
 url: "https://saurabhs.site"
 baseurl: ""
 
 # Personal info for SEO
 author:
   name: "Saurabh Shah"
-  email: "saurabhs@allenai.org"
+  email: "saurabh@humansand.ai"
   twitter: ""
   linkedin: "saurabh-shah-90063a18a"
   github: "saurabh111233212"
