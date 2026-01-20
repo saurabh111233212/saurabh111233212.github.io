@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Saurabh Shah - Resume"
-description: "Resume of Saurabh Shah, AI Research Engineer at Allen Institute for AI"
+description: "Resume of Saurabh Shah, Member of Technical Staff at humans&"
 permalink: /resume/
 ---
 
