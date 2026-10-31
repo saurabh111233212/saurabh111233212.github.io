@@ -29,6 +29,21 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Keep anchor targets from hiding under the fixed navbar */
+[id] {
+    scroll-margin-top: calc(var(--navbar-height) + 1rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+    }
+}
+
 :root {
     --primary-color: #7c3aed;
     --secondary-color: #78716c;
@@ -266,6 +281,14 @@ body {
     flex-direction: column;
     cursor: pointer;
     padding: 0.25rem;
+    background: none;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.nav-toggle:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
 }
 
 .bar {
@@ -322,6 +345,12 @@ body {
     font-weight: 700;
     margin-bottom: 1rem;
     color: var(--primary-color);
+}
+
+.profile-emoji {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 1rem;
 }
 
 .profile-subtitle {
